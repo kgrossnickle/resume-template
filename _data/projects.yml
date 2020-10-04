@@ -2,15 +2,9 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-- project: jazznotes.io
+- project: TridentOutreach.com
   role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
+  duration: 2020 &mdash; Present
   # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
-
+  description: •Built a Node JS webapp & Electron desktop app that automates actions for Linkedin, email & other online platforms<br> • Improves Linkedin’s search feature with simple NLP and helps > 100 paying users find ideal prospects on Linkedin<br>•Generates $100,000 annual revenue through over a 100 paying users
 # Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
