@@ -110,16 +110,18 @@
 
 .contact-button {
   @include border-radius(3px);
+        display: inline-block; 
+      *display: inline;
+  border-radius: 15px;
   background-color: #efefef;
   text-decoration: none;
   text-align: center;
-  display: block;
-  margin: 1.5rem auto;
-  width: 220px;
+  width: 40%;
   font-size: 1.375rem;
   @include sans_light;
-  color: #333;
-  line-height: 55px;
+  color: #fff;
+  line-height: 50px;
+  background-color: grey;
   @include transition(all .2s ease);
 
   &:hover {
