@@ -7,13 +7,14 @@
 
       display:block;
       width: 100%;
-      min-width: 200px;
+      max-width: 620px;
       margin: 0 auto;
       margin-top: 10px;
     }
     .resumeLink {
       display: inline-block; 
       *display: inline;
+      max-width: 300px;
       border-radius: 15px;
       text-align: center;
       width: 49%;
@@ -34,6 +35,7 @@
       top: 5px;
     }
     .contactLink {
+      max-width: 300px;
       display: inline-block; 
       *display: inline;
       border-radius: 15px;
@@ -56,9 +58,10 @@
       top: 5px;
     }
   </style>
-  <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
+  <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}" style='background-image: url("space.gif");
+ background-color: #cccccc;'>
 
-    <div class="wrapper" itemscope itemtype="http://schema.org/Person">
+    <div class="wrapper" itemscope itemtype="http://schema.org/Person" style='background-image: url("resumePaper.jpg");background-color:white;max-width: 1008px;'>
       <meta itemprop="telephone" content="{{ site.resume_contact_telephone }}"/>
       <meta itemprop="address" content="{{ site.resume_contact_address }}"/>
 
